@@ -1,0 +1,447 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: georgia, serif;
+}
+
+.one {
+	width: 980px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 200px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+}
+
+.txt {
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	padding-top: 15px;
+}
+
+.name-txt {
+	font-size: 15px;
+	margin: 0 auto;
+	margin-left: 13px;
+	padding: 0;
+	color: #999999;
+	float: left;
+}
+
+.container-form {
+	width: 310px;
+	height: 34px;
+	float: right;
+	margin-top: 19px;
+	margin-right: 10px;
+}
+
+input {
+  width: 215px;
+  height: 32px;
+  padding-left: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #000;
+  color: #9E9C9C;
+  font-family: georgia, serif;
+}
+
+.search_button {
+  width: 80px;
+  height: 32px;
+  border: none;
+  outline: none;
+  background-color: #d54346; 
+  color: #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: georgia, serif;
+}
+
+.container {
+	width: 980px;
+	height: 74px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+	display: flex;
+	width: 620px;
+	height: 45px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li, a{
+	color: #B9B9B9;
+	font-size: 13px;
+	margin-right: 8px;
+	margin-left: 8px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.menu :hover {
+	color: #EF2525;
+}
+
+.background_photo {
+	background-image: url(../image/sport.jpg);
+	width: 960px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.txt-block{
+	width: 500px;
+	height: 75px;
+	padding: 37px 0px 37px;
+	font-size: 24px;
+	margin-left: 500px;
+	background-color: #000;
+	opacity: 0.5;
+	color: #fff;
+	margin-top: -180px;
+}
+
+.articles {
+	display: flex;
+}
+
+.block {
+	height: 260px;
+	width: 960px;
+	display: flex;
+	margin: 0 auto;
+}
+.articles1, .articles2,.articles3{
+	height: 260px;
+	width: 305px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.articles1, .articles2{
+	margin-right: 33.75px;
+}
+
+.heading {
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #666666;
+}
+
+.button {
+	height: 32px;
+	width: 105px;
+	border: none;
+	background-color: #d54346; 
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: georgia, serif;
+}
+
+.original {
+	font-size: 15px;
+	color: #999999;
+}
+
+hr {
+	margin: 0 auto;
+	width: 960px;
+	color: #e2e2e2; 
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.left_column {
+	width: 480px;
+	height: 600px;
+}
+
+.right_column {
+	width: 480px;
+	height: 600px;
+}
+
+.heading_left{
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #666666;
+}
+.heading_right {
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #666666;
+}
+
+.block1{
+	width: 388.3px;
+	height: 80px; 
+	float: right;
+	margin-top: 32.5px;
+}
+.text {
+	float: right;
+	font-size: 15px;
+	margin:0px;
+	margin-top: 5px;
+	padding: 0;
+	color: #999999;
+}
+
+.img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 30px 0px 0px 0px;
+}
+.name {
+	width: 130px;
+	height: 19px;
+	padding: 0;
+	margin: 0;
+	margin-top: 1px;
+	color: #d54346;
+	float: left;
+
+}
+
+.heading_right_one {
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	color: #666666;
+}
+
+.img-big {
+	width: 225px;
+	height: 145px;
+	float: left;
+	margin: 30px 20px 0px 10px;
+}
+
+.text-big {
+	font-size: 15px;
+	width: 223px;
+	height: 145px;
+	float: left;
+	margin:0px;
+	margin-top: 30px;
+	padding: 0;
+	color: #999999;
+}
+
+.text-big-one {
+	font-size: 15px;
+	width: 490px;
+	height: 68px;
+	float: left;
+	margin:0px;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 0;
+	color: #999999;
+}
+
+.button-2 {
+	height: 32px;
+	width: 105px;
+	border: none;
+	background-color: #d54346; 
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 378px;
+	margin-top: 20px;
+	font-family: georgia, serif;
+}
+
+.lapki {
+	height: 48px;
+	width:58px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.txt-img {
+	height: 48px;
+	width:300px;
+	float: left;
+}
+
+.text-big-one2 {
+	font-size: 15px;
+	width: 490px;
+	height: 68px;
+	float: left;
+	margin:0px;
+	margin-left: 10px;
+	padding: 0;
+	color: #999999;
+}
+
+.Tommy {
+	width: 250px;
+	height: 19px;
+	margin:0px;
+	padding: 0px;
+	margin-top: 5px;
+	color: #989898;
+}
+
+.View
+{
+	font-size: 14px;
+	text-transform: lowercase;
+	text-transform: capitalize;
+	color: #d54346;
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+.foter {
+	height: 55px;
+	width:980px;
+	margin: 0 auto;
+}
+
+.pib{
+	font-size: 15px;
+	float: right;
+	margin:0px;
+	margin-right: 10px;
+	margin-top: 20px;
+	padding: 0;
+	color: #999999;
+}
+
+.pidpis{ 
+	font-size: 15px;
+	float: left;
+	margin:0px;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 0;
+	color: #999999;
+ }
+.social_icons {
+	width: 250px;
+	height: 32px;
+	margin-right: 13px;
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	margin-top: 10px;
+
+}
+
+a.in {
+	background: url(../image/in.png);
+    display: block;
+    margin: 0px;
+	width: 32px; 
+	height: 32px;
+}
+
+ a.in:hover{
+ 	width: 32px; 
+	height: 32px;
+	background: url(../image/in_red.png);
+}
+
+a.twitter {
+	background: url(../image/twitter.png);
+    display: block;
+    margin: 0px;
+	width: 32px; 
+	height: 32px;
+}
+
+ a.twitter:hover{
+ 	width: 32px; 
+	height: 32px;
+	background: url(../image/twitter_red.png);
+}
+
+a.g {
+	background: url(../image/g+.png);
+    display: block;
+    margin: 0px;
+	width: 32px; 
+	height: 32px;
+}
+
+ a.g:hover{
+ 	width: 32px; 
+	height: 32px;
+	background: url(../image/g_red.png);
+}
+
+a.pin {
+	background: url(../image/pin.png);
+    display: block;
+    margin: 0px;
+	width: 32px; 
+	height: 32px;
+}
+
+ a.pin:hover{
+ 	width: 32px; 
+	height: 32px;
+	background: url(../image/pin_red.png);
+}
+
+a.wi-fi {
+	background: url(../image/wifi.png);
+    display: block;
+    margin: 0px;
+	width: 32px; 
+	height: 32px;
+}
+
+ a.wi-fi:hover{
+ 	width: 32px; 
+	height: 32px;
+	background: url(../image/wifi_red.png);
+}
+
+button:hover{
+	background-color: #000;
+}
